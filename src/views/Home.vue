@@ -10,7 +10,7 @@
         <v-form ref="form" v-model="valid" lazy-validation>
           <v-text-field class="mb-2" v-model="uid" :rules="uidrules" :counter="9" label="User ID (type without the '#')" required outlined :value="uid" id="uid"></v-text-field>
           <v-text-field class="mb-2" type="number" v-model="gems" :rules="gemsrules" :counter="5" label="Amount of gems (up to 99 999)" required outlined :value="gems" id="gems"></v-text-field>
-          <v-btn color="success" @click="validate; loader = 'loading'" :loading="loading" :disabled="loading">Generate Gems</v-btn>
+          <v-btn color="success" @click="validate" :loading="loading" :disabled="loading">Generate Gems</v-btn>
           <v-btn color="dark" class="mt-2 mt-md-0 ml-0 ml-md-4" @click="validate" href="https://github.com/SlaVistaPL/cr-fake-gemgen">Github repository</v-btn>
         </v-form>
       </v-card-text>
