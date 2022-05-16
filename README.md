@@ -12,4 +12,6 @@ Ever since, everyone wanted a legit way to get free gems - a premium in-game cur
 </details>
 
 ## Disclaimer
-I am not affiliated nor endorsed with Supercell Oy with headquarters based in Helsinki, Finland. Clash Royale is their registered trademark. Project was done entirely for entertainment purposes and I do not have any financial advantages out of this website. No copyright infringement was intended.
+Note that no real Clash Royale API is in use, however originally I planned to use it for the only purpose of searching for a real player (although I had some problems while implementing Undici into that project, and even reinstalling packages given in the error log weren't giving an expected result due to the numerous errors with the access of NPM package manager to the Git repos).
+
+**I am not affiliated nor endorsed with Supercell Oy with headquarters based in Helsinki, Finland. Clash Royale is their registered trademark. Project was done entirely for entertainment purposes and I do not have any financial advantages out of this website. No copyright infringement was intended.**
