@@ -1,5 +1,5 @@
 # Clash Royale fake gem generator
-A website imitating the fake "gem generator" for Clash Royale game, available open-source for everyone. Because why not? Unlike another "generators", this one actually utilizes the Clash Royale API for the purpose of searching a player.
+A website imitating the fake "gem generator" for Clash Royale game, available open-source for everyone. Because why not?
 
 ## A brief description
 Ever since, everyone wanted a legit way to get free gems - a premium in-game currency of Clash Royale game. Every generator utilizes a captcha system based on filling out exhausting forms requesting a lot of your personal data. This is the first CR gem generator not requesting such actions from you. Simply type your UID (could be found in your in-game profile info), type how much gems you want to get and click on "Generate". The generator will do its rest!
