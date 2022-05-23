@@ -34,16 +34,17 @@ export default {
         v => !!v || 'Number of gems is required!',
         v => (v && !isNaN(v)) || 'Value must be a number!',
         v => (v && v.length <= 5) || 'Number of gems must be less than or equal to 99 999!',
-        v => (v && v.length > 0) || 'Number of gems must be greater than 0!',
+        v => (v && v > 0) || 'Number of gems must be greater than 0!',
       ]
     }),
 
     methods: {
       validate () {
-        const form = this.$refs.form.validate();
-        if (form) {
-          this.loading = true;
+        const verify = this.$refs.form.validate();
+        console.log(verify);
+        if (verify) {
           this.loader = 'loading';
+          this.loading = true;
         }
       }
     },
